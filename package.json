@@ -4,10 +4,15 @@
   "description": "\"# my-fullstack-app\"",
   "main": "server.js",
   "scripts": {
+    "start": "node server.js",
+    "dev": "express server.js",
+    "build": "tsc",
+    "serve": "node dist/server.js",
+    "lint": "eslint.",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "itrcvivek",
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",
